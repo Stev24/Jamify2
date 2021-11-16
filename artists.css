@@ -1,0 +1,30 @@
+.artistsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:15%;
+}
+
+.artistsContainer > h2{
+    margin-bottom: 32px;
+}
+
+
+.artistCard {
+    border: 4px solid #caf0f8;
+    margin-bottom: 16px;
+    box-shadow: 1px 2px 2px #888888;
+}
+
+.artistCard:last-child {
+    border: 4px solid #caf0f8;
+    margin-bottom: 64px;
+    box-shadow: 1px 2px 2px #888888;
+}
+
+
+
+body{
+    background-color: white;
+}
+/*#caf0f8
